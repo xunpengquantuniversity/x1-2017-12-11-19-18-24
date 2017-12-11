@@ -1,0 +1,104 @@
+python exists.
+git exists
+Hit:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial InRelease
+Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main Sources [286 kB]
+Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe Sources [184 kB]
+Get:6 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/multiverse Sources [7,960 B]
+Get:7 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [678 kB]
+Get:8 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+Get:9 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en [283 kB]
+Get:10 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [565 kB]
+Get:11 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en [229 kB]
+Get:12 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [16.2 kB]
+Get:13 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en [8,052 B]
+Get:14 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe Sources [4,904 B]
+Get:15 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [6,616 B]
+Get:16 http://security.ubuntu.com/ubuntu xenial-security/main Sources [104 kB]
+Get:17 http://security.ubuntu.com/ubuntu xenial-security/universe Sources [48.0 kB]
+Get:18 http://security.ubuntu.com/ubuntu xenial-security/multiverse Sources [1,516 B]
+Get:19 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [404 kB]
+Get:20 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en [178 kB]
+Get:21 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [188 kB]
+Get:22 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en [98.3 kB]
+Get:23 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en [1,408 B]
+Fetched 3,599 kB in 1s (3,084 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  keyutils libnfsidmap2 libtirpc1 rpcbind
+Suggested packages:
+  watchdog
+The following NEW packages will be installed:
+  keyutils libnfsidmap2 libtirpc1 nfs-common rpcbind
+0 upgraded, 5 newly installed, 0 to remove and 124 not upgraded.
+Need to get 379 kB of archives.
+After this operation, 1,386 kB of additional disk space will be used.
+Get:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/main amd64 libnfsidmap2 amd64 0.25-5 [32.2 kB]
+Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/main amd64 libtirpc1 amd64 0.2.5-1 [75.6 kB]
+Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/main amd64 keyutils amd64 1.5.9-8ubuntu1 [47.1 kB]
+Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/main amd64 rpcbind amd64 0.2.3-0.2 [40.3 kB]
+Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 nfs-common amd64 1:1.2.8-9ubuntu12.1 [184 kB]
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+Fetched 379 kB in 0s (14.7 MB/s)
+Selecting previously unselected package libnfsidmap2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 82808 files and directories currently installed.)
+Preparing to unpack .../libnfsidmap2_0.25-5_amd64.deb ...
+Unpacking libnfsidmap2:amd64 (0.25-5) ...
+Selecting previously unselected package libtirpc1:amd64.
+Preparing to unpack .../libtirpc1_0.2.5-1_amd64.deb ...
+Unpacking libtirpc1:amd64 (0.2.5-1) ...
+Selecting previously unselected package keyutils.
+Preparing to unpack .../keyutils_1.5.9-8ubuntu1_amd64.deb ...
+Unpacking keyutils (1.5.9-8ubuntu1) ...
+Selecting previously unselected package rpcbind.
+Preparing to unpack .../rpcbind_0.2.3-0.2_amd64.deb ...
+Unpacking rpcbind (0.2.3-0.2) ...
+Selecting previously unselected package nfs-common.
+Preparing to unpack .../nfs-common_1%3a1.2.8-9ubuntu12.1_amd64.deb ...
+Unpacking nfs-common (1:1.2.8-9ubuntu12.1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for systemd (229-4ubuntu19) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Setting up libnfsidmap2:amd64 (0.25-5) ...
+Setting up libtirpc1:amd64 (0.2.5-1) ...
+Setting up keyutils (1.5.9-8ubuntu1) ...
+Setting up rpcbind (0.2.3-0.2) ...
+Setting up nfs-common (1:1.2.8-9ubuntu12.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/idmapd.conf with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/default/nfs-common with new version
+Adding system user `statd' (UID 112) ...
+Adding new user `statd' (UID 112) with group `nogroup' ...
+Not creating home directory `/var/lib/nfs'.
+nfs-utils.service is a disabled or a static unit, not starting it.
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+Processing triggers for systemd (229-4ubuntu19) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+jupyter exists
+[I 19:19:02.167 NotebookApp] Writing notebook server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 19:19:02.923 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 19:19:02.934 NotebookApp] Serving notebooks from local directory: /home/ubuntu
+[I 19:19:02.934 NotebookApp] 0 active kernels
+[I 19:19:02.934 NotebookApp] The Jupyter Notebook is running at:
+[I 19:19:02.934 NotebookApp] http://[all ip addresses on your system]:8888/
+[I 19:19:02.934 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 19:27:51.045 NotebookApp] 302 GET / (65.96.160.137) 0.59ms
+[I 19:27:51.143 NotebookApp] 302 GET /tree? (65.96.160.137) 0.98ms
+[I 19:35:05.540 NotebookApp] 302 GET / (207.46.13.34) 0.47ms
